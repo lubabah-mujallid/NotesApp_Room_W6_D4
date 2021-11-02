@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         binding.etNote.text.clear()
         Log.d("TAG MAIN", "new data added")
         Toast.makeText(this, "data saved!!", Toast.LENGTH_LONG).show()
+        Log.d("TAG MAIN", "new data added")
     }
 
     private fun updateNote(note: Note, nNote: String) {
